@@ -32,7 +32,7 @@ def zadKolo20(): Unit = {
     .map(line => line.split(",").toList)
     .toList
 
-  val remove = input.map(el => el.filter(l2 => l2 != "")).filter(l3 => l3.length == 11).groupBy(pole => pole(0)).toList
-    .map(el => (el(0), el(1).map(el => (el(1), el(2))).sortBy(el => el(0))))
-  println(remove)
+  // val remove = input.map(el => el.filter(l2 => l2 != "")).filter(l3 => l3.length == 11).groupBy(pole => pole(0)).toList
+  //   .map(el => (el(0), el(1).map(el => (el(1), el(2))).sortBy(el => el(0))))
+  // println(remove)
 }
